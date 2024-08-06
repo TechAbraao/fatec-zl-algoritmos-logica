@@ -1,1 +1,9 @@
-# fatec-zona-leste-algoritmos-logica
+<h1 align="center">Fatec Zona Leste | Algoritmos e Lógica de Programação</h1>
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/FATEC_ZONA_LESTE.png" width="400">
+</div>
+<div>
+  <ul>
+    <li>Em desenvolvimento...</li>
+  </ul>
+</div>
