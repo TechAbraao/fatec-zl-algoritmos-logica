@@ -1,0 +1,29 @@
+# Título
+
+## Informações gerais
+
+* Prof. Sirley Ambrosia Victoria Addão
+* Na FATEC-ZL, vou usar exclusivamente a IDE do Eclipse para Java
+* As avaliações serão no Beecrowd
+* Livro referência: Algoritmos - Teoria e Prática, Thomas Cormen
+** https://github.com/free-educa/books/blob/main/books/Algoritmos%20-%20Teoria%20e%20Pr%C3%A1tica%20(Thomas%20H.%20Cormen%2C%20%20Charles%20E.%20Leiserson%20etc.).pdf
+* Utilizarei o draw.io para desenvolver os fluxograma
+----
+## Apresentação da Disciplina
+
+* Nesse semestre, trabalharemos com prog. estruturada
+* Algoritmo é uma sequência lógica finita de passos ou instruções
+* Fluxograma é a representação gráfica da lógica de programação
+* Entrada, processamento e saída
+* Teste de mesa: processo na qual verificamos as etapas de forma manual, isto é, pela própria mão
+* Variável é um espaço armazenado na memória do computador
+** Nada de caracteres especiais
+* As constantes são um espaço de memória, porém, são fixos, isto é, não pode ser reatribuído (imutável)
+* Tipos de dados foram apresentados de forma conceitual
+* Ficar atento ao caseSensitive
+* Sem caracteres especiais na nomenclatura
+* (<-) Recebe. Ex: n <- 1 "n recebe 1"
+* (=) Igual. Ex: 1 = 1 "1 é igual 1"
+----
+## Resolvendo algoritmos
+* Português estruturado e Fluxograma
