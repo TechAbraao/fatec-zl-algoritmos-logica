@@ -1,1 +1,54 @@
 // 7. Arrays e ArraysList
+
+## 7.1 Introdução
+* Arrays são estruturas de dados do mesmo tipo
+* É impossível modificar um Array, basicamente, pra alterar algo, necessitaria criar um novo array
+
+## 7.2 Arrys
+* Array é um grupo de variáveis, denominados itens ou elementos que contém valores do mesmo tipo
+* Arrays são objetos
+* nomeDoArray.length -> retorna o comprimento do array
+
+## 7.3 Declarando e criando arrays
+* Para criar um objeto array, instanciamos igual a um objeto, com o 'new'
+* Quando um array do tipo int é criado, todos os espaços ou elementos na memória são inicializados, mas sem valor definido
+//
+package com.estudos.arrays;
+
+public class DeclarandoArray {
+    //
+    public static void main(String[] args) {
+        // 'primeiroArray' referencia um array
+        int[] arrayInt = new int[12]; // Criou um array que contém doze elementos
+        System.out.printf("Array Int: %d\n", arrayInt[2]);
+        // Todos os espaços de memória dos elementos são inicializados, porém, todos inicializam como zero.
+        String[] arrayString = new String[20];
+        System.out.printf("Array String: %s\n", arrayString[15]);
+        // Vamos acessar o index do array e seu elemento pela instrução 'for'
+        for (int c = 0; c < arrayInt.length; c++){
+            System.out.printf("Index: %d - Elemento: %d\n", c, arrayInt[c]);
+        }
+    }
+}
+
+//
+
+## 7.4.2 Utilizando um inicializador de array
+* Além de declarar e definir o tamanho de um array com elementos vazios, é possível inicializar um array com seus respectivos valores.
+//
+package com.estudos.arrays;
+
+public class InicializadorArray {
+    public static void main(String[] args) {
+        // Declarando um array e inicializando com seus respectivos valores em String
+        String[] nomes = {"Abraão S.", "José T.", "Rosangela T."};
+        //
+        for(int c = 0; c < nomes.length; c++){
+            System.out.printf("Index = %d - Elemento = %s%n", c, nomes[c]);
+        }
+    }
+}
+//
+* Declarar uma constante nomeada é uma boa prática de programação
+
+## 7.4.4 Somando os elementos de um array
