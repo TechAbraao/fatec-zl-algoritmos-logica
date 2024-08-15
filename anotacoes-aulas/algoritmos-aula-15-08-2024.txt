@@ -1,0 +1,7 @@
+//
+* Saber representar computacionalmente é mais fundamental do que o código estar rodando
+* Tipo de dados e expressões
+*	//							Controlar o espaçamento 
+		//                          Quantidade de casas decimais
+		System.out.printf("Média Ponderada: %10.2f", M);
+* Printf em Java advanced
