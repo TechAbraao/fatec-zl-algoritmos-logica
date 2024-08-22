@@ -1,0 +1,22 @@
+# Iniciando com estrutura condicional em Java, um comando 
+# Se () entao, senao - Portugues estruturado
+# if () {} else {} - Java
+# Se o fluxograma segue de um jeito, portugues estruturado e linguagem java devem seguir o mesmo modelo
+
+NOVO_SALARIO <- SALARIO + (SALARIO * 10/100)
+
+NOVO_SALARIO <- SALARIO + (SALARIO * 5 / 100)
+
+IF (CONDICAO) {
+	VERDADEIRO
+} ELSE {
+	FALSO
+};
+
+String nome = "a";
+
+if (nome === "a") {
+	System.out.print("VERDADEIRO");
+} else {
+	System.out.println("FALSO");
+};	
