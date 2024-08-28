@@ -1,0 +1,14 @@
+algoritmo "Par ou Ímpar"
+
+var
+    numero: inteiro
+
+inicio
+    leia(numero)
+    
+    se numero % 2 = 0 entao
+        escreva("É par o número ", numero)
+    senao
+        escreva("É ímpar o número ", numero)
+    fimse
+fimalgoritmo

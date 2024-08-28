@@ -1,0 +1,15 @@
+algoritmo "Senhor ou Senhora"
+
+var
+    nome, sexo: caractere
+
+inicio
+    leia(nome)
+    leia(sexo)
+    
+    se sexo = "masculino" entao
+        escreva("Bem-vindo, Ilmo. Sr. ", nome)
+    senao
+        escreva("Bem-vinda, Ilma. Sra. ", nome)
+    fimse
+fimalgoritmo
