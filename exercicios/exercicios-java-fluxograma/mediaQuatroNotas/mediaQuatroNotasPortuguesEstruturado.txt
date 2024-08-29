@@ -1,26 +1,26 @@
 algoritmo "Média de Quatro Notas"
 
 var
-    x, y, z, n, m, media, novaMedia: real
+    x, y, z, n, m, media, novaMedia: real;
 
 inicio
-    leia(x)
-    leia(y)
-    leia(z)
-    leia(n)
+    leia(x);
+    leia(y);
+    leia(z);
+    leia(n);
  
     media <- (x + y + z + n) / 4;
     
     se media >= 7 entao
-        escreva("Aprovado com média: ", media)
+        escreva("Aprovado com média: ", media);
     senao
         leia(m);
         novaMedia <- (m + media) / 2;
         
-        se novaMedia >= 5 entao
-            escreva("Aprovado em exame com média: ", novaMedia)
-        senao
-            escreva("Reprovado com média: ", novaMedia)
-        fimse
+            se novaMedia >= 5 entao
+                escreva("Aprovado em exame com média: ", novaMedia);
+            senao
+                escreva("Reprovado com média: ", novaMedia);
+            fimse
     fimse
 fimalgoritmo
